@@ -1,3 +1,3 @@
 export default function Page() {
-  return <h1>Hello CharGenAi- Ai Avtar coming soon!</h1>;
+  return <video src="/demo.mp4" controls />
 }
