@@ -3,7 +3,7 @@ import { generateSpeech } from '../../../lib/elevenlabs';
 import { createAvatarVideo } from '../../../lib/heygen';
 import { fetchProduct } from '../../../lib/shopify';
 
-export async function POST(request: NextRequest) {
+export async function POST(request) {
   try {
     const body = await request.json();
     const { url } = body;
