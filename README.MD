@@ -4,7 +4,7 @@ AI Sales Avatar for Shopify – automatic product videos in 30 s.
 ## How it works
 1. Drop a Shopify product URL  
 2. We generate a talking-head video  
-3. You embed it and sell more
+3. You embed it and sell more.
 
 ## Tech
 - Next.js + Vercel
