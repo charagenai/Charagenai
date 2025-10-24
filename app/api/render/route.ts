@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { generateSpeech } from 'Charagenai/app/lib/elevenlabs';
-import { createAvatarVideo } from '/Charagenai/app/lib/heygen';
-import { fetchProduct } from 'Charagenai/app/lib/shopify';
+import { generateSpeech } from 'app/lib/elevenlabs';
+import { createAvatarVideo } from 'app/lib/heygen';
+import { fetchProduct } from 'app/lib/shopify';
 
 export async function POST(request: NextRequest) {
   try {
