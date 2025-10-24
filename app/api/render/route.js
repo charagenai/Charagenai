@@ -8,13 +8,13 @@ export async function POST(request: NextRequest) {
     const body = await request.json();
     const { url } = body;
 
-    // 1. Shopify-Daten holen
+    // 1. Shopify data
     const product = await fetchProduct(url);
 
-    // 2. MP3-Sprache erzeugen
+    // 2. MP3 speech
     const audioUrl = await generateSpeech(product.title);
 
-    // 3. Avatar-Video erzeugen
+    // 3. Avatar video
     const videoUrl = await createAvatarVideo(audioUrl, product.image);
 
     return NextResponse.json({ videoUrl });
