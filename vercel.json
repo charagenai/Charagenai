@@ -1,0 +1,8 @@
+{
+  "builds": [
+    {
+      "src": "app/api/render/route.js",
+      "use": "@vercel/next"
+    }
+  ]
+}
