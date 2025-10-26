@@ -2,7 +2,7 @@
 const API_KEY = process.env.ELEVEN_LABS_API_KEY; // kommt aus .env.local
 
 export async function generateSpeech(text) {
-  const voiceId = 'EXAVITQu4vr4xnSDxMaL'; // beliebige Stimme
+  const voiceId = 'zlatCM6nK59gyedHFFxn'; // beliebige Stimme
   const url = `https://api.elevenlabs.io/v1/text-to-speech/${voiceId}`;
 
   const response = await fetch(url, {
